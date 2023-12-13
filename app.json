@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "scheme": "lwapplication",
+    "web": {
+      "bundler": "metro"
+    },
+    "orientation": "portrait",
+    "name": "LW",
+    "slug": "waterapp",
+    "version": "5.1.11",
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "bfe13400-1b84-4799-8ee1-3ca90cea05a4"
+      }
+    },
+    "android": {
+      "package": "com.marynan.ConnectCheck",
+      "softwareKeyboardLayoutMode": "pan",
+      "icon": "./assets/playstore.png",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyD88WkjONWMNtJDXaR46v5jprLjXcJ51GY"
+        }
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.marynan.ConnectCheck",
+      "icon": "./assets/appstore.png",
+      "infoPlist": {
+        "CFBundleIconName": "appstore",
+        "CFBundleVersion": "5"
+      },
+      "entitlements": {
+        "com.apple.developer.in-app-payments": [
+          "merchant.com.LuxWash.LuxPay"
+        ]
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyD88WkjONWMNtJDXaR46v5jprLjXcJ51GY"
+      }
+    },
+    "owner": "msalo222"
+  }
+}
