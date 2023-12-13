@@ -459,7 +459,7 @@ const MapScreen = () => {
                             (
                                 <View style={styles.content}>
                                     <View style={{marginBottom: 15, justifyContent: 'center', alignItems: 'center'}}>
-                                        <Text style={styles.title}>Список мийок</Text>
+                                        <Text style={styles.title}>Список Терміналів</Text>
                                     </View>
                                 </View>
                             ) : (

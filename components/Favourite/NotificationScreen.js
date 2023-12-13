@@ -96,7 +96,7 @@ const NotificationScreen = () => {
                             </View>
                             <View style={ notificationCardStyle.textDistance }>
                                 <Text style={fontStyle.text}>
-                                    Текст від власників мийки
+                                    Текст від власників терміналів
                                 </Text>
                             </View>
                             <View style={ notificationCardStyle.buttonsBox }>
@@ -124,7 +124,7 @@ const NotificationScreen = () => {
                             </View>
                             <View style={ notificationCardStyle.textDistance }>
                                 <Text style={ fontStyle.text }>
-                                    Текст від власників мийки
+                                Текст від власників терміналів
                                 </Text>
                             </View>
                             <View style={ notificationCardStyle.buttonsBox }>
